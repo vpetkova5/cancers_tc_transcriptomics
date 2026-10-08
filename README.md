@@ -20,12 +20,10 @@ evaluation of the derived 441-gene stromal programme in TCGA-THCA.
 | `scripts/04_caf_analysis` | CAF fractions, correlation with ESTIMATE scores, MCP-counter cross-check |
 | `scripts/05_differential_expression` | DESeq2 (six contrasts), PCA, volcano plots, up/down split, intersection analysis |
 | `scripts/06_ecm_stromal` | Collagen-containing ECM genes, GO/Reactome enrichment of the stromal and shared gene sets |
-| `scripts/07_summary_checks` | Interactive checklists for numbers quoted in the text (not part of the pipeline) |
-| `scripts/08_wgcna` | WGCNA network construction, module-trait correlations, generic module enrichment |
-| `scripts/09_hub_genes_enrichment` | Directed module enrichment, hub genes (MM/GS) |
-| `scripts/10_tcga_validation` | Stromal score vs. clinical risk categories in TCGA-THCA |
-| `scripts/11_tcga_validation_figures` | ssGSEA stromal score, TDS, TCGA-THCA panels and main figures |
-| `scripts/12_roc` | Reserved for ROC  |
+| `scripts/07_wgcna` | WGCNA network construction, module-trait correlations, generic module enrichment |
+| `scripts/08_tcga_validation` | Stromal score vs. clinical risk categories in TCGA-THCA |
+| `scripts/09_tcga_validation_figures` | ssGSEA stromal score, TDS, TCGA-THCA panels and main figures |
+| `scripts/10_roc` | Reserved for ROC  |
 
 ## How to run
 
